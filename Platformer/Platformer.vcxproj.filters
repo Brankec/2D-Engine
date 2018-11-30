@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Map">
+      <UniqueIdentifier>{6de1dca2-2746-4f6b-86cf-a5fbb20d805a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="External Libraries">
+      <UniqueIdentifier>{904b0ec3-a27e-4a37-b7c8-c8c643631e7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util">
+      <UniqueIdentifier>{bcbfa8fd-8d48-4efa-be8d-3b085b3eff40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="State">
+      <UniqueIdentifier>{d0c513a8-f2b0-45a6-a2c0-de731ed17ca1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sound">
+      <UniqueIdentifier>{daa15fd0-838a-470a-9a7e-c2ac9d4e8837}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Manager">
+      <UniqueIdentifier>{d11bf8b1-1d9b-4412-bb40-a6b0eb3f8c5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SuperMarioBros">
+      <UniqueIdentifier>{78ba9adf-4d81-4937-b593-0bf9e52e0b8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SuperMarioBros\States">
+      <UniqueIdentifier>{d8538018-78f9-4525-b601-1c134c92cb5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SuperMarioBros\Sounds">
+      <UniqueIdentifier>{c06fd801-761a-4cb2-ace2-88754054d3f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SuperMarioBros\Assets">
+      <UniqueIdentifier>{c8e2ad05-e54b-4992-93a2-8331a38961f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SuperMarioBros\Assets\Textures">
+      <UniqueIdentifier>{648b02cf-4392-4e9f-a69e-3ec23b2e3c1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SuperMarioBros\Assets\Textures\Player">
+      <UniqueIdentifier>{0ecd40fd-d43e-4516-b15b-827dd5bc47a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SuperMarioBros\Assets\Textures\NPC">
+      <UniqueIdentifier>{d7ff6ffa-a916-46bb-9e25-e8c8a87780d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SuperMarioBros\Assets\Textures\World">
+      <UniqueIdentifier>{d537dec6-cedf-4e1a-a1ba-4f9df9daebde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SuperMarioBros\Assets\Sounds">
+      <UniqueIdentifier>{73397887-25c6-4d4c-8fb5-12fa5a115d72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SuperMarioBros\Assets\Sounds\Player">
+      <UniqueIdentifier>{6a7291dd-6b16-45e6-b72c-d779089bfa51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SuperMarioBros\Assets\Sounds\NPC">
+      <UniqueIdentifier>{d8fe8039-115c-4bec-a7cb-cf993db063fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SuperMarioBros\Assets\Sounds\World">
+      <UniqueIdentifier>{6accecaf-0a82-40c8-bf72-d438c48751f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SuperMarioBros\Assets\Levels">
+      <UniqueIdentifier>{f904b1e9-d1f5-4a17-bd93-58dc3e804589}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SuperMarioBros\Maps">
+      <UniqueIdentifier>{834711b0-75ca-4822-8f54-e46e49dbaeaf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entity">
+      <UniqueIdentifier>{559dbc8b-4e87-4d77-9156-b9940d933686}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SuperMarioBros\Entities">
+      <UniqueIdentifier>{8afd745b-6494-476a-aa56-5a23ba59c3bb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="Util\Camera.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\FPSCounter.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\Maths.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Map\Map.cpp">
+      <Filter>Map</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceManager\ResourceManager.cpp">
+      <Filter>Resource Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Map\TileInteract.cpp">
+      <Filter>Map</Filter>
+    </ClCompile>
+    <ClCompile Include="SuperMarioBros\States\StatePlaying.cpp">
+      <Filter>SuperMarioBros\States</Filter>
+    </ClCompile>
+    <ClCompile Include="SuperMarioBros\Maps\Level.cpp">
+      <Filter>SuperMarioBros\Maps</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceManager\Resource.cpp">
+      <Filter>Resource Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity\Entity.cpp">
+      <Filter>Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\Animation.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="SuperMarioBros\Entities\Player.cpp">
+      <Filter>SuperMarioBros\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\Conversion.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound\Sound.cpp">
+      <Filter>Sound</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="State\StateBase.h">
+      <Filter>State</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="Util\Camera.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\FPSCounter.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\Maths.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\Random.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Map\Map.h">
+      <Filter>Map</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager\ResourceManager.h">
+      <Filter>Resource Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager\Resource.h">
+      <Filter>Resource Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\Singleton.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Map\TileInteract.h">
+      <Filter>Map</Filter>
+    </ClInclude>
+    <ClInclude Include="SuperMarioBros\States\StatePlaying.h">
+      <Filter>SuperMarioBros\States</Filter>
+    </ClInclude>
+    <ClInclude Include="SuperMarioBros\Maps\Level.h">
+      <Filter>SuperMarioBros\Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity\Entity.h">
+      <Filter>Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\Animation.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="SuperMarioBros\Entities\Player.h">
+      <Filter>SuperMarioBros\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\Conversion.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound\Sound.h">
+      <Filter>Sound</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="SuperMario64\Assets\Textures\World\NTF.png">
+      <Filter>SuperMarioBros\Assets\Textures\World</Filter>
+    </Image>
+    <Image Include="Map\NTF.png">
+      <Filter>Map</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="SuperMarioBros\Assets\Levels\level1.txt">
+      <Filter>SuperMarioBros\Assets\Levels</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
